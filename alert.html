@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alert</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+   
+        <!-- Question - 7 
+            a. head
+            
+         -->
+    <script src="app.js"></script>
+
+
+    
+</head>
+
+<body>
+    <section>
+        <div class=" container bg-dark mr-5 ml-5 text-white">
+            <h1 class="text-center">Alert</h1>
+            <h2>1. Write a script to greet your website visitor using JS alert box.</h2>
+           <p class="" id="greetMsg"></p>
+          
+           
+        </div>
+    </section>
+  
+
+
+
+   
+ <!-- Javascript -->
+<!-- C. script tag inside the boy tag -->
+<script>
+// Question 1 and 6 and 7 .
+
+
+    var welCome = new Date();
+    var hours = welCome.getHours();
+    var greeting;
+
+    if (hours < 12) 
+    greeting = 'Good Morning !';
+    else if (hours >= 12 && hours<= 19)
+    greeting = 'Good Afternoon !';
+    else if (hours >= 19 && hours <= 24)
+    greeting = 'Good Evening !';
+
+    document.getElementById('greetMsg').innerHTML =
+    greeting + ' Welcome to my website and thank you for visiting.';
+</script> 
+
+
+
+
+
+
+
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+        integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+        crossorigin="anonymous"></script>
+</body>
+   
+ <!-- Javascript -->
+<!-- b. Body (before your page’s HTML) 
+     -->
+<!-- <script>
+    Question 1 and 6 and 7 .
+    
+    
+        var welCome = new Date();
+        var hours = welCome.getHours();
+        var greeting;
+    
+        if (hours < 12) 
+        greeting = 'Good Morning !';
+        else if (hours >= 12 && hours<= 19)
+        greeting = 'Good Afternoon !';
+        else if (hours >= 19 && hours <= 24)
+        greeting = 'Good Evening !';
+    
+        document.getElementById('greetMsg').innerHTML =
+        greeting + ' Welcome to my website and thank you for visiting.';
+    </script> 
+     -->
+</html>
+
+
+
+
+<!-- Javascript -->
+<!--d. Body (after your page’s HTML)
+     -->
+<!-- <script>
+    Question 1 and 6 and 7 .
+    
+    
+        var welCome = new Date();
+        var hours = welCome.getHours();
+        var greeting;
+    
+        if (hours < 12) 
+        greeting = 'Good Morning !';
+        else if (hours >= 12 && hours<= 19)
+        greeting = 'Good Afternoon !';
+        else if (hours >= 19 && hours <= 24)
+        greeting = 'Good Evening !';
+    
+        document.getElementById('greetMsg').innerHTML =
+        greeting + ' Welcome to my website and thank you for visiting.';
+    </script> 
+     -->
